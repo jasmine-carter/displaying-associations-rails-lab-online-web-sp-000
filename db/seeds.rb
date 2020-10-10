@@ -7,4 +7,4 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 daft_punk = Artist.create!(name: 'Daft Punk')
 grid = daft_punk.songs.create!(title: 'The Grid')
-@voyager = @artist.songs.create!(title: 'Voyager')
+voyager = daft_punk.songs.create!(title: 'Voyager')
